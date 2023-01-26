@@ -8,6 +8,8 @@
 // prije nego radimo neke promjene, trebamo provjeriti postoji li nešto na udaljenom repozitoriju --> prvo git pull OVO SE SVE ODNOSI AKO RADI NAS NEKOLIKO NA ISTOM PROJEKTU
 // ako kreiramo novi branch na gitu s istim imenom, možemo ih spojiti s git fetch
 // git push -u origin tom --> s ovim smo stavili najnoviji branch na udaljeni repozitorij
+// moramo mergati na gitu sve iz niže grane na višu, kako bi se to sve spojilo
+// kada radimo lokalno, možemo koristiti koliko god želimo lokalnih brancheva
 
 // Povezivanje s udaljenim repozitorijem: 
 // 1. U Gitu otvorimo new repository (Tomislavu preko gita i repozitorija šaljemo završni rad) --> SSH ključ
@@ -17,3 +19,4 @@
 // 5. Moramo kreairati readme file
 
 console.log(window);
+console.log("Ja sam Matko!")
